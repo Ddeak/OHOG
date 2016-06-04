@@ -1,0 +1,39 @@
+{
+  "name": "ohog-client",
+  "version": "0.0.1",
+  "description": "Odins Hall of Grooming Client",
+  "main": "index.js",
+  "scripts": {
+    "production": "NODE_ENV=production webpack -p --config ./webpack.config.js",
+    "start": "webpack-dev-server",
+    "lint": "eslint . --ext .js --ext .jsx --cache || true"
+  },
+  "author": "Daniel Deak",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.8.0",
+    "babel-eslint": "^6.0.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "eslint": "^2.10.2",
+    "eslint-plugin-react": "^5.1.1",
+    "npm-install-webpack-plugin": "^3.1.3",
+    "react": "^15.0.2",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.12.0"
+  },
+  "dependencies": {
+    "eslint-loader": "^1.3.0",
+    "immutable": "^3.8.1",
+    "react-addons-pure-render-mixin": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.0",
+    "redux": "^3.5.2",
+    "socket.io-client": "^1.4.6"
+  }
+}
