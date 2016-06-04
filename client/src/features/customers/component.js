@@ -1,5 +1,4 @@
 import React from 'react'
-import Today from './components/today/container'
 import Create from './components/create/container'
 import {Tabs, Tab} from 'material-ui/Tabs'
 
@@ -20,11 +19,8 @@ class Component extends React.Component {
   render() {
     return (
       <Tabs>
-        <Tab label="Today" >>
-          <Today />
-        </Tab>
-        <Tab label="This Week" >
-
+        <Tab label="All" >
+          <h2>All Customers:</h2>
         </Tab>
         <Tab label="Create" >
           <Create />

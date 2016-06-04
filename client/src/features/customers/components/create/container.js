@@ -2,16 +2,16 @@ import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 import { connect } from 'react-redux'
 
-import Appointments from './presenter'
+import Create from './presenter'
 
-const Today = React.createClass({
+const CreateCustomer = React.createClass({
 	mixins: [PureRenderMixin],
 
 	render: function() {
 
 		return (
 			<div>
-				<Appointments />
+				<Create />
 			</div>
 		)
 	}
@@ -25,4 +25,4 @@ function mapStateToProps(state) {
 
 export default connect(
 	mapStateToProps
-)(Today)
+)(CreateCustomer)

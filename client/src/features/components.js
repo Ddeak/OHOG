@@ -1,5 +1,7 @@
 import Appointments from './appointments/component'
+import Customers from './customers/component'
 
 export default {
-	Appointments: Appointments
+	Appointments: Appointments,
+	Customers: Customers
 }
